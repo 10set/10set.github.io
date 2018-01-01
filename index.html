@@ -23,5 +23,41 @@
   <body>
     <h1>Bienbenido a la web móvil</h1>
 
+    <div class="side-column-back side-column-right"></div>
+    <div class="side-column side-column-right">
+    </div>
+
+    <div id="scores" class="dialog">
+      <ul></ul>
+      <div class="ok"></div>
+    </div>
+
+    <div id="youWon" class="dialog">
+      <div class="contents">
+        <p class="greeting">
+          Well Done!
+        </p>
+        <strong>Score: </strong><span class="score">0</span><br/>
+        <strong>Turns: </strong><span class="turns">0</span>
+        <br />
+        <br />
+
+        <div style="margin-top:15px;" class="tweetScore button primary">&nbsp;&nbsp;Tweet Score&nbsp;&nbsp;</div>
+        <div style="margin-top:15px;" class="newGame button success">&nbsp;&nbsp;New Game&nbsp;&nbsp;</div>
+      </div>
+    </div>
+
+    <div id="statusPanel">
+      <div class="score"><i class='fi icon-star'></i> <span class='data'>0 Points</span></div>
+      <div class="turns"><span class='data'>0 Turns</span></div>
+      <div class="time"><i class='fi icon-clock'></i> <span class='data'>0:00</span></div>
+      <div class="startAgain"><i class='fi icon-refresh'></i> New Game</div>
+      <div class="undo"><i class='fi icon-undo'></i> Undo</div>
+    </div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="/assets/solitaire-4af39d6c6d749fb0347c1f79c9ddc2810cf690bca9b61efc3379e7ce9737964c.js"></script>
   </body>
 </html>
